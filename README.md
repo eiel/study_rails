@@ -1,4 +1,4 @@
-study_rails
+rails勉強用repo
 ===========
 
-rails勉強用repo
+このrepoはrailsを勉強するための専用repoです。
