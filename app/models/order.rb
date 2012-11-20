@@ -1,3 +1,3 @@
 class Order < ActiveRecord::Base
-  attr_accessible :item_id, :order_count, :parts_id
+  attr_accessible :item_id, :count, :parts_id
 end
