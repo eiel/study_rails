@@ -12,11 +12,11 @@
   Item.create(:item_name => 'mogu')
 
 #orderのテストデータ
-  Order.create(:item_id => 1, :parts_id => 1, :count => 2)
-  Order.create(:item_id => 1, :parts_id => 2, :count => 1)
-  Order.create(:item_id => 1, :parts_id => 3, :count => 3)
-  Order.create(:item_id => 2, :parts_id => 1, :count => 2)
-  Order.create(:item_id => 2, :parts_id => 2, :count => 4)
+  Order.create(:item_id => 1, :part_id => 1, :count => 2)
+  Order.create(:item_id => 1, :part_id => 2, :count => 1)
+  Order.create(:item_id => 1, :part_id => 3, :count => 3)
+  Order.create(:item_id => 2, :part_id => 1, :count => 2)
+  Order.create(:item_id => 2, :part_id => 2, :count => 4)
  
  #partのテストデータ
   Part.create(:parts_X => 1, :parts_Y => 3, :parts_Z => 5)
