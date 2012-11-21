@@ -1,12 +1,10 @@
 class TestJsonController < ApplicationController
   def index
-    @item = Item.find(1)
-    @order = @item.orders
-    @part = @item.parts
-    
+    @items = Item.all
+
     respond_to do |format|
       format.html
-      format.json { render :json => [@order,@part]}
+      format.json { render :json => @items.map(&:to_json) }
     end
   end
 end
