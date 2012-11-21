@@ -20,7 +20,7 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 
-  gem 'less'
+  gem 'less-rails'
 end
 
 gem 'jquery-rails'
@@ -47,6 +47,7 @@ gem 'therubyracer'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
+  gem "xpath"
   gem "capybara"
   gem "spork-rails"
   gem "autotest"
